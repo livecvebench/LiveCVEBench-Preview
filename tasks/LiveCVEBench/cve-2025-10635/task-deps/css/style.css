@@ -1,0 +1,55 @@
+div.findmeon-bookmarks {
+	margin:20px 0 0 0;
+	clear: both !important;
+}
+div.findmeon-bookmarks-expand {
+	height: 32px;
+	/* overflow: hidden; */
+}
+
+div.findmeon-bookmarks ul.networks {
+	width:100% !important;
+	margin:0 !important;
+	padding:0 !important;
+	float: left !important;
+}
+
+div.findmeon-bookmarks ul.networks {
+	background:transparent none !important;
+	border:0 none !important;
+	outline:0 none !important;
+}
+
+div.findmeon-bookmarks ul.networks li {
+	display:inline !important;
+	float:left !important;
+	list-style-type:none !important;
+	margin:0 0 0px 0; 							/*JTA: Sets margin between rows of icons */
+	height:32px !important;
+	width:45px !important;
+	cursor:pointer !important;
+	padding:0 0 0 0 !important;
+	background-color:transparent !important;
+	border:0 none !important;
+	outline:0 none !important;
+	clear:none !important;
+}
+
+div.findmeon-bookmarks ul.networks li:before, div.findmeon-bookmarks ul.networks li:after, div.findmeon-bookmarks ul.networks li a:before, div.findmeon-bookmarks ul.networks li a:after {
+	content:none !important;
+}
+
+div.findmeon-bookmarks ul.networks a {
+	display:block !important;
+	width:45px !important;
+	height:32px !important;
+	text-indent: -9999px !important;
+	background-color:transparent !important;
+}
+
+div.findmeon-bookmarks ul.networks a:hover, div.findmeon-bookmarks ul.networks li:hover {
+	background-color:transparent !important;
+	border:0 none !important;
+	outline:0 none !important;
+}
+

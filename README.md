@@ -40,7 +40,7 @@ To facilitate usage, LiveCVEBench can be launched with one click using [Terminal
 Ensure you have `uv` installed, then install the `terminal-bench` package (only supports version 1.0):
 
 ```bash
-uv tool install terminal-bench@1.0
+uv tool install terminal-bench
 ```
 
 ### Running the Evaluation
@@ -228,6 +228,3 @@ If you find this benchmark useful, please cite:
   url = {https://github.com/livecvebench/LiveCVEBench-Preview}
 }
 ```
-
----
-*Kuaishou Klear Team x HIT-SCIR-LACG*
